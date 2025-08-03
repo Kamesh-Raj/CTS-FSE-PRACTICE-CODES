@@ -1,0 +1,25 @@
+/* Theme-specific background and text */
+.app-container.light {
+  background-color: #f9f9f9;
+  color: #000;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-container.dark {
+  background-color: #121212;
+  color: #fff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Update card if needed */
+.Card {
+  background-color: white;
+  color: black;
+}
+
+.app-container.dark .Card {
+  background-color: #333;
+  color: white;
+}

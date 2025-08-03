@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  text-align: left;
+}
+
+.column {
+  border-left: 4px solid green;
+  padding-left: 20px;
+  width: 30%;
+}
+
+h1 {
+  font-size: 20px;
+  color: black;
+}
+
+h3 {
+  margin: 8px 0 0;
+  font-weight: bold;
+}
+
+h4, p {
+  margin: 4px 0;
+}
